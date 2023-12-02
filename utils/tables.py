@@ -23,9 +23,9 @@ def _table_formats(option_number):
     option_filter: int = int(input("» "))
 
     if option_number == 1 and option_filter == 1:
-        subprocess.run(["python3", "scr/filter.py", "--audio"])
+        subprocess.run(["python3", "src/filter.py", "--audio"])
         _table_options()
     elif option_number == 1 and option_filter == 2:
-        subprocess.run(["python3", "scr/filter.py", "--video"])
+        subprocess.run(["python3", "src/filter.py", "--video"])
         _table_options()
 
