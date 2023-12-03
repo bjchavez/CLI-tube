@@ -6,10 +6,12 @@ CLI app to download audio or video from Youtube.
 
 - Clone this repository.
 - Install requirements.txt file.
+
     ```
     pip install -r requirements.txt
     ```
 - Run main command:
+
     ```
     python3 main.py
     ```
