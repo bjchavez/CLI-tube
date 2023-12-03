@@ -18,7 +18,7 @@ def download():
     stream = youtube_link.streams.get_by_itag(itag)
     if stream is not None:
         root_path = Path.home()
-        str_path = "download_music"
+        str_path = "download_all"
         path = Path(f"{root_path}/{str_path}")
         if path.is_dir():
             stream.download(f"/{path}")
