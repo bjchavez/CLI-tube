@@ -12,9 +12,12 @@ def _table_options():
     console.print(table)
     print("[orange3] Whats option you choose?")
     option_number: int = int(input("» "))
-    if option_number == 3:
+    if option_number == 1:
+        _table_formats(option_number)
+    elif option_number == 2:
+        subprocess.run(["python3", "src/download.py"])
+    elif option_number == 3:
         os.abort()
-    _table_formats(option_number)
 
 
 def _table_formats(option_number):
@@ -28,4 +31,3 @@ def _table_formats(option_number):
     elif option_number == 1 and option_filter == 2:
         subprocess.run(["python3", "src/filter.py", "--video"])
         _table_options()
-
