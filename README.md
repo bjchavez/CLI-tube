@@ -10,6 +10,11 @@ CLI app to download audio or video from Youtube.
     ```
     pip install -r requirements.txt
     ```
+- Activate the virtual environment
+
+    ```
+    source .env/bin/activate
+    ```
 - Run main command:
 
     ```
