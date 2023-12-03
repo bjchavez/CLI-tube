@@ -13,10 +13,10 @@ CLI app to download audio or video from Youtube.
     ```
     python3 main.py
     ```
- 
+
 ## Usage
 
-You can find its guideline in [usage](/docs/usage.md).
+You can find its guideline [here](/docs/usage.md).
 
 ## what technologies am I using?
 
@@ -27,4 +27,4 @@ You can find its guideline in [usage](/docs/usage.md).
 ## To do
 
 - There is an issue right now with video downloads. I can't find a way to download videos with audio, so it's somenthing I need to
-figure out. 
+figure out.
