@@ -5,13 +5,14 @@ import typer
 import os
 
 download_app = typer.Typer()
+font_color = "#fab387"
 
 
 @download_app.command()
 def download():
-    print("[orange3] Link to download: ")
+    print(f"[{font_color}] Link to download: ")
     link: str = input("» ")
-    print("[orange3] Itag: ")
+    print(f"[{font_color}] Itag: ")
     itag: int = int(input("» "))
 
     youtube_link = YouTube(link)
