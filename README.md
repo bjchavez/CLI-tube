@@ -18,7 +18,7 @@ CLI app to download audio or video from Youtube.
 - Run main command:
 
     ```
-    python3 main.py
+    ./main.py
     ```
 
 ## Usage
@@ -28,7 +28,7 @@ You can find its guideline [here](/docs/usage.md).
 ## what technologies am I using?
 
 - [Typer](https://typer.tiangolo.com/) - Typer, build great CLIs. Easy to code. Based on Python type hints.
-- [Pytube](https://pytube.io/en/latest/) - pytube is a lightweight, Pythonic, dependency-free, library (and command-line utility) for downloading YouTube Videos.
+- [Pytube](https://pytube.io/en/latest/) - Pytube is a lightweight, Pythonic, dependency-free, library (and command-line utility) for downloading YouTube Videos.
 - [Rich](https://github.com/Textualize/rich) - Rich is a Python library for rich text and beautiful formatting in the terminal.
 
 ## To do
