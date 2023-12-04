@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from utils.tables import _table_options
 
 
