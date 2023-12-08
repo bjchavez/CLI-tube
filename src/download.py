@@ -19,7 +19,7 @@ def download():
     stream = youtube_link.streams.get_by_itag(itag)
     if stream is not None:
         root_path = Path.home()
-        download_path = "tytube_downloads"
+        download_path = "tytube"
         path = Path(f"{root_path}/{download_path}")
         if path.is_dir():
             stream.download(f"/{path}")
