@@ -3,13 +3,13 @@ from rich import print
 import typer
 
 filter_app = typer.Typer()
-font_color = "#fab387"
+
 
 @filter_app.command()
 def filter(audio: bool = False, video: bool = False):
-    print(f"[{font_color}] Link to filter» ")
-    link = input("» ")
+    link: str = typer.prompt("Link to filter")
     y_link = YouTube(link)
+
     if audio:
         y_filter = y_link.streams.filter(only_audio=True)
         for f in y_filter:

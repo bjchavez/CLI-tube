@@ -1,18 +1,17 @@
 from utils.table_formats import table_formats
 from utils.table_options import table
 from rich.console import Console
-from rich import print
 import subprocess
+import typer
 import os
 
 console = Console()
-font_color = "#fab387"
 
 
 def _table_options():
     console.print(table)
-    print(f"[{font_color}] Whats option you choose?")
-    option_number: int = int(input("» "))
+    option_number = int(typer.prompt("Whats option you choose?"))
+
     if option_number == 1:
         _table_formats(option_number)
     elif option_number == 2:
@@ -23,8 +22,7 @@ def _table_options():
 
 def _table_formats(option_number):
     console.print(table_formats)
-    print(f"[{font_color}] Audio or video?")
-    option_filter: int = int(input("» "))
+    option_filter: int = int(typer.prompt("Audio or video?"))
 
     if option_number == 1 and option_filter == 1:
         subprocess.run(["python3", "src/filter.py", "--audio"])
