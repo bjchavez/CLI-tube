@@ -1,37 +1,37 @@
 # Ty-Tube
 
-CLI app to download audio or video from Youtube.
+CLI App to download audio or video from Youtube. :smile:
 
 ## Installation Guide
 
 - Clone this repository.
 - Install requirements.txt file.
 
-    ```
-    pip install -r requirements.txt
-    ```
-- Activate the virtual environment
+  ```
+  pip install -r requirements.txt
+  ```
+- Activate .env
 
-    ```
-    source .env/bin/activate
-    ```
-- Run main command:
+  ```
+  source .env/bin/activate
+  ```
+- Then, run:
 
-    ```
-    ./main.py
-    ```
+  ```
+  ./main.py
+  ```
 
 ## Usage
 
 You can find its guideline [here](/docs/usage.md).
 
-## what technologies am I using?
+## What technologies am I using?
 
 - [Typer](https://typer.tiangolo.com/) - Typer, build great CLIs. Easy to code. Based on Python type hints.
 - [Pytube](https://pytube.io/en/latest/) - Pytube is a lightweight, Pythonic, dependency-free, library (and command-line utility) for downloading YouTube Videos.
 - [Rich](https://github.com/Textualize/rich) - Rich is a Python library for rich text and beautiful formatting in the terminal.
 
-## To do
+## To-do
 
 - There is an issue right now with video downloads. I can't find a way to download videos with audio, so it's somenthing I need to
 figure out.
