@@ -5,7 +5,7 @@ from rich import box
 table = Table(title="CLI-Tube", show_lines=True, box=box.ROUNDED)
 
 table.add_column("Option", justify="center", style="#fab387")
-table.add_column("Description", justify="left", style="#94e2d5")
+table.add_column("Description", justify="left", style="#89b4fa")
 
 table.add_row("1", "Filter a YouTube link, you can choose between audio or video.")
 table.add_row("2", "Download an audio or video from Youtube.")

@@ -10,7 +10,7 @@ console = Console()
 
 def _table_options():
     console.print(table)
-    option_number = int(typer.prompt("Whats option you choose?"))
+    option_number = int(typer.prompt(typer.style("Whats option you choose?", fg=typer.colors.RED)))
 
     if option_number == 1:
         _table_formats(option_number)
@@ -22,7 +22,7 @@ def _table_options():
 
 def _table_formats(option_number):
     console.print(table_formats)
-    option_filter: int = int(typer.prompt("Audio or video?"))
+    option_filter: int = int(typer.prompt(typer.style("Audio or video?", fg=typer.colors.RED)))
 
     if option_number == 1 and option_filter == 1:
         subprocess.run(["python3", "src/filter.py", "--audio"])
