@@ -1,4 +1,4 @@
-# Ty-Tube
+# CLI-tube
 
 CLI App to download audio or video from Youtube. :smile:
 
