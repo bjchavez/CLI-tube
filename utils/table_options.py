@@ -2,7 +2,7 @@ from rich.console import Console
 from rich.table import Table
 from rich import box
 
-table = Table(title="Ty-Tube", show_lines=True, box=box.ROUNDED)
+table = Table(title="CLI-Tube", show_lines=True, box=box.ROUNDED)
 
 table.add_column("Option", justify="center", style="#fab387")
 table.add_column("Description", justify="left", style="#94e2d5")
