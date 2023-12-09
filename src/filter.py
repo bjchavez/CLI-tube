@@ -7,7 +7,7 @@ filter_app = typer.Typer()
 
 @filter_app.command()
 def filter(audio: bool = False, video: bool = False):
-    enter_link = typer.prompt("Link to filter")
+    enter_link = typer.prompt(typer.style("Link to filter", fg=typer.colors.RED))
     youtube_link = YouTube(enter_link)
 
     if audio:
