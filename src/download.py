@@ -8,8 +8,8 @@ download_app = typer.Typer()
 
 @download_app.command()
 def download():
-    link: str = typer.prompt("Link to download")
-    itag: int = typer.prompt("Itag")
+    link = typer.prompt("Link to download")
+    itag = int(typer.prompt("Itag"))
 
     download_path = "tytube"
     youtube_link = YouTube(link)
