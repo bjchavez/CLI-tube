@@ -11,7 +11,7 @@ def download():
     link = typer.prompt(typer.style("Link to download", fg=typer.colors.RED))
     itag = int(typer.prompt(typer.style("Itag", fg=typer.colors.RED)))
 
-    download_path = "tytube"
+    download_path = "clitube_⏩"
     youtube_link = YouTube(link)
     stream = youtube_link.streams.get_by_itag(itag)
 
