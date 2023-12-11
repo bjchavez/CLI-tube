@@ -38,5 +38,5 @@ You can find its guideline [here](/docs/usage.md).
 
 ## To-do
 
-- There is an issue right now with video downloads. I can't find a way to download videos with audio, so it's somenthing I need to
+- [ ] There is an issue right now with video downloads. I can't find a way to download videos with audio, so it's somenthing I need to
 figure out.
