@@ -5,19 +5,24 @@ CLI App to download audio or video from Youtube. :smile:
 ## Installation Guide
 
 - Clone this repository.
-- Install requirements.txt file.
+- Create a virtual environment:
 
-  ```
-  pip install -r requirements.txt
+  ```console
+  $ python3 -m venv .env
   ```
 - Activate .env
 
-  ```
+  ```console
   source .env/bin/activate
+  ```
+- Install requirements.txt file.
+
+  ```console
+  pip install -r requirements.txt
   ```
 - Then, run:
 
-  ```
+  ```console
   ./main.py
   ```
 
