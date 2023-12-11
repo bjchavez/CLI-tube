@@ -13,17 +13,17 @@ CLI App to download audio or video from Youtube. :smile:
 - Activate .env
 
   ```console
-  source .env/bin/activate
+  $ source .env/bin/activate
   ```
 - Install requirements.txt file.
 
   ```console
-  pip install -r requirements.txt
+  $ pip install -r requirements.txt
   ```
 - Then, run:
 
   ```console
-  ./main.py
+  $ ./main.py
   ```
 
 ## Usage
